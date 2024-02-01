@@ -1,0 +1,14 @@
+﻿<Window x:Class="SchoolProjectColorStore.SearchWIndow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolProjectColorStore"
+        mc:Ignorable="d"
+        Title="SearchWIndow" Height="450" Width="450">
+    <Grid Margin="0,0,0,-6" Background="#FFB58686">
+        <ListBox x:Name="searchListBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="97,0,0,10" Background="{x:Null}"/>
+        <TextBox x:Name="SearchText" HorizontalAlignment="Left" Margin="10,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="82" Background="White" GotFocus="SearchText_GotFocus"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="20,220,0,0" VerticalAlignment="Top" Width="62" Click="SearchButton_Click"/>
+    </Grid>
+</Window>

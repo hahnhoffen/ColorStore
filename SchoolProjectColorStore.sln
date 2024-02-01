@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolProjectColorStore", "SchoolProjectColorStore\SchoolProjectColorStore.csproj", "{634D3C8C-8B4D-406C-98F9-622C1A6CE7C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{634D3C8C-8B4D-406C-98F9-622C1A6CE7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634D3C8C-8B4D-406C-98F9-622C1A6CE7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634D3C8C-8B4D-406C-98F9-622C1A6CE7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634D3C8C-8B4D-406C-98F9-622C1A6CE7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72969679-2E45-48E3-A8F5-B26489B4B784}
+	EndGlobalSection
+EndGlobal

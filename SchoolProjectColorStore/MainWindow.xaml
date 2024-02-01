@@ -1,0 +1,33 @@
+﻿<Window x:Class="SchoolProjectColorStore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolProjectColorStore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!-- Background Image -->
+        <Image Source="/man.jpg" />
+
+        <!-- Overlay Image -->
+        <Image Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Height="34" Margin="747,0,0,0" VerticalAlignment="Top" Width="39" Source="/cart.png">
+            <Image.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Button x:Name="Searchbutton" HorizontalAlignment="Left" Margin="47,177,0,0" VerticalAlignment="Top" Height="18" Width="22" Click="Search_click">
+            <Button.Background>
+                <ImageBrush ImageSource="/searchbutton.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Information" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Height="21" Width="96" Click="Information_button"/>
+        <Button Content="Store" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top" Height="21" Width="96" Click="Store_button"/>
+        <Button Content="Users" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Height="21" Width="96" Click="Users_button"/>
+        <Button Content="Orders" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Height="21" Width="96" Click="Orders_button"/>
+
+    </Grid>
+</Window>
